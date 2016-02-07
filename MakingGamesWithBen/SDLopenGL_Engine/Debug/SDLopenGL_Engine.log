@@ -1,0 +1,33 @@
+﻿Der Buildvorgang wurde am 07.02.2016 20:09:34 gestartet.
+     1>Projekt "F:\PROGRAMM\VS 2015\MakingGamesWithBen\SDLopenGL_Engine\SDLopenGL_Engine.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         D:\Prog\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"F:\PROGRAMM\VS 2015\MakingGamesWithBen\_Depts\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\SDLopenGL_Engine.pdb" /Gd /TP /analyze- /errorReport:prompt Timing.cpp
+         Timing.cpp
+     1>f:\programm\vs 2015\makinggameswithben\sdlopengl_engine\timing.cpp(34): warning C4244: "Initialisierung": Konvertierung von "Uint32" in "float", möglicher Datenverlust
+     1>f:\programm\vs 2015\makinggameswithben\sdlopengl_engine\timing.cpp(90): warning C4244: "Initialisierung": Konvertierung von "Uint32" in "float", möglicher Datenverlust
+     1>f:\programm\vs 2015\makinggameswithben\sdlopengl_engine\timing.cpp(93): warning C4244: "Initialisierung": Konvertierung von "Uint32" in "float", möglicher Datenverlust
+       Lib:
+         D:\Prog\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"F:\PROGRAMM\VS 2015\MakingGamesWithBen\Debug\SDLopenGL_Engine.lib" openGl32.lib glew32.lib sdl2.lib sdl2main.lib /LIBPATH:"F:\PROGRAMM\VS 2015\MakingGamesWithBen\_Depts\lib" /NOLOGO Debug\SDLopenGL.obj
+         Debug\Camera2D.obj
+         Debug\EngineError.obj
+         Debug\GLSLProgram.obj
+         Debug\ImageLoader.obj
+         Debug\InputManager.obj
+         Debug\IOManager.obj
+         Debug\picoPNG.obj
+         Debug\ResourceManager.obj
+         Debug\Sprite.obj
+         Debug\SpriteBatch.obj
+         Debug\TextureCache.obj
+         Debug\Timing.obj
+         Debug\Window.obj
+     1>glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ist bereits in "openGl32.lib(OPENGL32.dll)" definiert; zweite Definition wird ignoriert.
+     1>glew32.lib(glew32.dll) : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+     1>sdl2.lib(SDL2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ist bereits in "openGl32.lib(OPENGL32.dll)" definiert; zweite Definition wird ignoriert.
+     1>sdl2.lib(SDL2.dll) : warning LNK4221: Die Objektdatei definiert keine zuvor undefinierten ÷ffentlichen Symbole. Sie wird daher von keinem Verkn³pfungsvorgang verwendet, der diese Bibliothek benutzt.
+         SDLopenGL_Engine.vcxproj -> F:\PROGRAMM\VS 2015\MakingGamesWithBen\Debug\SDLopenGL_Engine.lib
+     1>Die Erstellung von Projekt "F:\PROGRAMM\VS 2015\MakingGamesWithBen\SDLopenGL_Engine\SDLopenGL_Engine.vcxproj" ist abgeschlossen (Build Ziel(e)).
+
+Der Buildvorgang wurde erfolgreich ausgeführt.
+
+Verstrichene Zeit 00:00:00.33

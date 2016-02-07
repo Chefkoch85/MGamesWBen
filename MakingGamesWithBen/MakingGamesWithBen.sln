@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MakingGamesWithBen", "MakingGamesWithBen\MakingGamesWithBen.vcxproj", "{D0C9DB89-4F7B-47DD-9DA6-0ADD0861530D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{808CE037-EDE7-4293-8AAF-EC59B03D4ADA} = {808CE037-EDE7-4293-8AAF-EC59B03D4ADA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDLopenGL_Engine", "SDLopenGL_Engine\SDLopenGL_Engine.vcxproj", "{808CE037-EDE7-4293-8AAF-EC59B03D4ADA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0C9DB89-4F7B-47DD-9DA6-0ADD0861530D}.Debug|x64.ActiveCfg = Debug|x64
+		{D0C9DB89-4F7B-47DD-9DA6-0ADD0861530D}.Debug|x64.Build.0 = Debug|x64
+		{D0C9DB89-4F7B-47DD-9DA6-0ADD0861530D}.Debug|x86.ActiveCfg = Debug|Win32
+		{D0C9DB89-4F7B-47DD-9DA6-0ADD0861530D}.Debug|x86.Build.0 = Debug|Win32
+		{D0C9DB89-4F7B-47DD-9DA6-0ADD0861530D}.Release|x64.ActiveCfg = Release|x64
+		{D0C9DB89-4F7B-47DD-9DA6-0ADD0861530D}.Release|x64.Build.0 = Release|x64
+		{D0C9DB89-4F7B-47DD-9DA6-0ADD0861530D}.Release|x86.ActiveCfg = Release|Win32
+		{D0C9DB89-4F7B-47DD-9DA6-0ADD0861530D}.Release|x86.Build.0 = Release|Win32
+		{808CE037-EDE7-4293-8AAF-EC59B03D4ADA}.Debug|x64.ActiveCfg = Debug|x64
+		{808CE037-EDE7-4293-8AAF-EC59B03D4ADA}.Debug|x64.Build.0 = Debug|x64
+		{808CE037-EDE7-4293-8AAF-EC59B03D4ADA}.Debug|x86.ActiveCfg = Debug|Win32
+		{808CE037-EDE7-4293-8AAF-EC59B03D4ADA}.Debug|x86.Build.0 = Debug|Win32
+		{808CE037-EDE7-4293-8AAF-EC59B03D4ADA}.Release|x64.ActiveCfg = Release|x64
+		{808CE037-EDE7-4293-8AAF-EC59B03D4ADA}.Release|x64.Build.0 = Release|x64
+		{808CE037-EDE7-4293-8AAF-EC59B03D4ADA}.Release|x86.ActiveCfg = Release|Win32
+		{808CE037-EDE7-4293-8AAF-EC59B03D4ADA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
