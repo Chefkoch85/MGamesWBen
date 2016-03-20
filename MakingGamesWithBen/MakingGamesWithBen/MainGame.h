@@ -13,9 +13,13 @@
 #include <SDLopenGL_Engine/SpriteBatch.h>
 #include <SDLopenGL_Engine/Camera2D.h>
 
+#include <CEGUI\CEGUI.h>
+#include <CEGUI\RendererModules\OpenGL\GL3Renderer.h>
+
 #include "Bullet.h"
 
 #include <vector>
+#include <map>
 
 enum class GameState {PLAY, EXIT};
 
@@ -32,9 +36,15 @@ public:
 private:
     void initSystems();
     void initShaders();
+	void shutdown();
     void gameLoop();
+	void drawGui();
     void processInput();
-    void drawGame();
+	void drawGame();
+
+	void initializeKeyMap();
+	void handle_mouse_down(Uint8 button);
+	void handle_mouse_up(Uint8 button);
 
     SDLopenGL::Window _window;
     int _screenWidth;
@@ -54,5 +64,12 @@ private:
     float _maxFPS;
     float _fps;
     float _time;
+
+	std::map<SDL_Keycode, CEGUI::Key::Scan> m_keymap;
+	CEGUI::OpenGL3Renderer* mGuiRenderer = nullptr;
+	CEGUI::GUIContext* mContext = nullptr;
+
+	bool CloseFrameWin(const CEGUI::EventArgs& args);
+	bool ExitButtonClick(const CEGUI::EventArgs& args);
 };
 
