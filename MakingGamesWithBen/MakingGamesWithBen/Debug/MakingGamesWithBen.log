@@ -1,15 +1,22 @@
-﻿Der Buildvorgang wurde am 20.03.2016 15:12:09 gestartet.
+﻿Der Buildvorgang wurde am 25.03.2016 15:05:36 gestartet.
      1>Projekt "F:\PROGRAMM\GitHub.local\MGamesWBen\MakingGamesWithBen\MakingGamesWithBen\MakingGamesWithBen.vcxproj" auf Knoten "2", Build Ziel(e).
      1>ClCompile:
-         D:\Prog\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IF:\PROGRAMM\GitHub.local\MGamesWBen\MakingGamesWithBen\_Depts\include /IF:\PROGRAMM\GitHub.local\MGamesWBen\MakingGamesWithBen\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt MainGame.cpp
-         MainGame.cpp
+         D:\Prog\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IF:\PROGRAMM\GitHub.local\MGamesWBen\MakingGamesWithBen\_Depts\include /IF:\PROGRAMM\GitHub.local\MGamesWBen\MakingGamesWithBen\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt GuiManager.cpp
+         GuiManager.cpp
+     1>f:\programm\github.local\mgameswben\makinggameswithben\makinggameswithben\guimanager.cpp(103): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+     1>f:\programm\github.local\mgameswben\makinggameswithben\makinggameswithben\guimanager.cpp(108): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
        Link:
          D:\Prog\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\PROGRAMM\GitHub.local\MGamesWBen\MakingGamesWithBen\Debug\MakingGamesWithBen.exe" /INCREMENTAL /NOLOGO /LIBPATH:F:\PROGRAMM\GitHub.local\MGamesWBen\MakingGamesWithBen\_Depts\lib /LIBPATH:F:\PROGRAMM\GitHub.local\MGamesWBen\MakingGamesWithBen\Debug opengl32.lib glew32.lib sdl2.lib sdl2main.lib SDLopenGL_Engine.lib "CEGUIBase-0_d.lib" "CEGUIOpenGLRenderer-0_d.lib" d3d10.lib d3dx10d.lib d3d9.lib d3dx9.lib dxerr.lib dxguid.lib dinput8.lib winmm.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\PROGRAMM\GitHub.local\MGamesWBen\MakingGamesWithBen\Debug\MakingGamesWithBen.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\PROGRAMM\GitHub.local\MGamesWBen\MakingGamesWithBen\Debug\MakingGamesWithBen.lib" /MACHINE:X86 Debug\Bullet.obj
+         Debug\GuiManager.obj
+         Debug\Gui.obj
+         Debug\HudGui.obj
+         Debug\IGuiScene.obj
          Debug\main.obj
          Debug\MainGame.obj
+         Debug\MainGui.obj
          MakingGamesWithBen.vcxproj -> F:\PROGRAMM\GitHub.local\MGamesWBen\MakingGamesWithBen\Debug\MakingGamesWithBen.exe
      1>Die Erstellung von Projekt "F:\PROGRAMM\GitHub.local\MGamesWBen\MakingGamesWithBen\MakingGamesWithBen\MakingGamesWithBen.vcxproj" ist abgeschlossen (Build Ziel(e)).
 
 Der Buildvorgang wurde erfolgreich ausgeführt.
 
-Verstrichene Zeit 00:00:02.29
+Verstrichene Zeit 00:00:02.50

@@ -153,12 +153,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="GuiManager.cpp" />
+    <ClCompile Include="Gui.cpp" />
+    <ClCompile Include="HudGui.cpp" />
+    <ClCompile Include="IGuiScene.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="MainGui.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bullet.h" />
+    <ClInclude Include="GuiManager.h" />
+    <ClInclude Include="Gui.h" />
+    <ClInclude Include="HudGui.h" />
+    <ClInclude Include="IGuiScene.h" />
     <ClInclude Include="MainGame.h" />
+    <ClInclude Include="MainGui.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

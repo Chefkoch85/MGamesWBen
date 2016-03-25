@@ -17,6 +17,7 @@
 #include <CEGUI\RendererModules\OpenGL\GL3Renderer.h>
 
 #include "Bullet.h"
+#include "GuiManager.h"
 
 #include <vector>
 #include <map>
@@ -42,9 +43,6 @@ private:
     void processInput();
 	void drawGame();
 
-	void initializeKeyMap();
-	void handle_mouse_down(Uint8 button);
-	void handle_mouse_up(Uint8 button);
 
     SDLopenGL::Window _window;
     int _screenWidth;
@@ -65,9 +63,7 @@ private:
     float _fps;
     float _time;
 
-	std::map<SDL_Keycode, CEGUI::Key::Scan> m_keymap;
-	CEGUI::OpenGL3Renderer* mGuiRenderer = nullptr;
-	CEGUI::GUIContext* mContext = nullptr;
+	CGuiManager mGuiMgr;
 
 	bool CloseFrameWin(const CEGUI::EventArgs& args);
 	bool ExitButtonClick(const CEGUI::EventArgs& args);
